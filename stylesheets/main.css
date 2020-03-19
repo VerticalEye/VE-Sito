@@ -1,0 +1,1617 @@
+
+/*********** GENERAL ***********/
+
+* {
+	box-sizing: border-box;
+	
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Teko', sans-serif;
+	font-size: 2.5rem;
+}
+
+h1{
+	font-size: 9.5rem;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 5px 0.5px rgba(0, 0, 0, .3);
+}
+
+h2{
+	font-size: 5.5rem;
+	font-weight: bold;
+	text-shadow: 5px 5px 0.5px rgba(0, 0, 0, .3);
+}
+
+h3{
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+h5{
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+h6{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	font-size: 2.3rem;
+	color: #000;
+}
+
+
+.center-text{
+	text-align: center;
+}
+
+
+.btn {
+	display: inline-block;
+	background: #4287f5;
+	padding: 12px 24px;
+	color: white;
+	text-transform: uppercase;
+	border: 0;
+	transition: background .3s;
+	border-radius: 50px;
+	box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
+	max-width: 300px;
+	margin-top: 50px;
+	text-align: center;
+	margin: 20px auto;
+	font-weight: bold;
+}
+
+.justified{
+	text-align: justify;
+}
+
+.active {
+	background: rgba(0, 0, 0,.9);
+	border-radius: 3px;
+	color: rgb(255, 255, 255);
+}
+
+img {
+	width: 100%;
+}
+
+.title {
+	font-size: 2.2rem;
+}
+
+main {
+	min-height: calc(100vh - 138.5px - 104px);
+	background:	linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)),
+							url(../images/sfondo3.jpg) no-repeat top  / cover;
+
+	
+}
+
+
+.hero{
+	margin: 90px 0 30px 0;
+	height: 500px;
+	color: white;
+	text-shadow: 5px 5px 2px rgba(255, 255, 255, .4);
+
+}
+
+
+
+.hero .hero-caption {
+	text-align: center;
+	padding: 140px 20px;
+}
+
+
+.white-text{
+	color: white;
+}
+
+
+.intro{
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	padding: 50px 0 50px 0;
+}
+
+.caps{
+	text-transform: capitalize;
+}
+
+.up{
+	text-transform: uppercase;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+
+.item50{
+	flex: 0 1 50%;
+	padding: 0 10px;
+	text-align: center;
+	list-style-type: none;
+}
+
+
+
+
+/*********** HEADER ***********/
+
+header {
+	background: rgba(255, 255, 255, .5); 
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	position: fixed;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
+	
+
+}
+
+
+
+header img {
+	width: 150px;
+}
+
+
+header .container{
+	width: 100%;
+}
+/*********** NAVIGATION ***********/
+
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+nav li a {
+	color: rgb(0, 0, 0);
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+
+/************ HOME **********/
+
+#hero1 {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+							url(../images/12.jpg);
+	background-position: center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+.logo-title-container{
+	width: 30%;
+	height: 100px;
+	margin: auto;
+	background-image: url(../images/logo per video bianco.PNG);
+}
+
+
+
+#elements .container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+.elements-container{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+}
+
+.el-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	flex: 0 1 33.33333333333333333333333333%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.el-item .material-icons{
+	font-size: 10rem;
+}
+
+
+
+.video-background{
+	width: 100%;
+	max-height: 1000px;
+	overflow: hidden;
+	margin: auto;
+	background: radial-gradient(, rgb(0, 0, 0));
+}
+
+.video-background video{
+	;
+	margin: auto;
+	width: 100%;
+	}
+
+#main-home{
+	padding-bottom: 75px;
+}
+
+#collaborations{
+	height: 500px;
+}
+
+.partner{
+	width: 15%;
+}
+/************ ABOUT **********/
+
+#hero2 {
+	background: linear-gradient(0deg, rgb(0, 0, 0), transparent),
+							url(../images/5.jpg);
+	background-position: top; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+#about-intro .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+	
+
+#about-intro .logo-container{
+	width: 30%;
+	margin: auto;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+#about-intro ul{
+	list-style-type: none;
+}
+
+
+.about-container{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	margin: 0 0 50px 0;
+	justify-content: space-around;
+}
+
+.about-container h2, h3, h4{
+	margin: 0 auto;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 650px;
+  border-radius: 3%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: auto;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 500px;
+  height: 650px;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+  border-radius: 3%
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }	
+
+.flip-card-front img{
+	width:350px;
+	height:350px;
+	border-radius: 100%;
+	margin-top: 50px;	
+}
+
+
+
+.about-container .picture{
+	width: 25%;
+}
+
+.about-container .picture img{
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+.about-container .caption{
+	width: 75%;
+	padding: 0 10px;	
+}
+
+#about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+#fleet{
+	
+	background:	linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+							url(../images/IMG_2375.jpg) no-repeat top  / cover;
+							
+	
+}
+
+#team{
+	
+	background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+	min-height: 1100px;
+}
+
+#team .item{
+margin-top: 0;
+justify-content: space-between;
+
+}
+
+
+/************ SERVIZI **********/
+
+
+#hero3{
+	background: linear-gradient(0deg, black, transparent),
+							url(../images/s900s.png);
+	background-position: center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	}
+
+.services-container section{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.ser-cont{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 30px 0;
+	width: 80%;
+	height: 800px;
+}
+
+.ser-cont .item{
+	flex: 0 1 50%;
+	height: 50%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.ser-cont .item:nth-child(1n):hover{
+	
+	transform: scale(1.1);
+}
+
+.ser-cont .item:nth-child(2n):hover{
+	
+	transform: scale(1.1);
+}
+
+.ser-cont .item:nth-child(3n):hover{
+	
+	transform: scale(1.1);
+}
+
+.ser-cont  .item:nth-child(4n):hover{
+	
+	transform: scale(1.1);
+}
+
+.ser-cont .item .caption{
+	background: rgba(0, 0, 0, .8);
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .3);
+	color: white;
+}
+
+
+#rilievo .item:nth-child(1n){
+	background: url(../images/fotogram.png) no-repeat center  / cover;
+}
+
+#rilievo .item:nth-child(2n){
+	background: url(../images/totalstation.jpg) no-repeat center  / cover;
+}
+
+#rilievo .item:nth-child(3n){
+	background: url(../images/SETT8.jpg) no-repeat center  / cover;
+}
+
+#rilievo .item:nth-child(4n){
+	background: url(../images/Cattura3.png) no-repeat center  / cover;
+}
+
+
+
+#altro .item:nth-child(1n){
+	background: url(../images/12_1.jpg) no-repeat center  / cover;
+}
+
+#altro .item:nth-child(2n){
+	background: url(../images/3dprint.png) no-repeat center  / cover;
+}
+
+
+
+
+#ispezioni .item:nth-child(1n){
+	background: url(../images/YUN00086.jpg) no-repeat center / cover;
+}
+
+#ispezioni .item:nth-child(2n){
+	background: url(../images/termografia.jpg) no-repeat center  / cover;
+}
+
+#ispezioni .item:nth-child(3n){
+	background: url(../images/agri.png) no-repeat center  / cover;
+}
+
+#ispezioni .item:nth-child(4n){
+	background: url(../images/allevamento.jpg) no-repeat center  / cover;
+}
+
+
+.ril{
+	margin:50px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	padding: 60px 20px;
+}
+
+
+#main-ril .services-container{
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+/************ RILIEVO **********/
+
+
+#hero6 .container{
+	background: linear-gradient(0deg, black, transparent),
+							url(../images/s900s.png);
+	background-position: center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero6{
+	margin-bottom: 0;
+}
+
+
+.cont4{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+}
+
+.cont4 .item{
+	flex: 0 1 25%;
+}
+
+.nav-ril .item:nth-child(1n){
+	background: url(../images/fotogram.PNG) no-repeat center  / cover;
+}
+
+.nav-ril .item:nth-child(2n){
+	background: url(../images/totalstation.jpg) no-repeat center  / cover;
+}
+
+.nav-ril .item:nth-child(3n){
+	background: url(../images/SETT8.jpg) no-repeat center  / cover;
+}
+
+.nav-ril .item:nth-child(4n){
+	background: url(../images/Cattura3.PNG) no-repeat center  / cover;
+}
+
+.cont4 .item .caption{
+	background: rgba(0, 0, 0, .8);
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .3);
+	color: white;
+	
+}
+
+
+
+#fotog{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/fotogram.PNG) no-repeat center  / cover;
+}
+
+#topo{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/totalstation.jpg) no-repeat center  / cover;
+}
+
+#archeo{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/SETT8.jpg) no-repeat center  / cover;
+}
+
+
+
+#trid{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/Cattura3.PNG) no-repeat center  / cover;
+}
+
+
+/************ ISPEZIONI **********/
+.nav-isp .item:nth-child(1n){
+	background: url(../images/YUN00086.jpg) no-repeat center  / cover;
+}
+
+.nav-isp .item:nth-child(2n){
+	background: url(../images/termografia.jpg) no-repeat center  / cover;
+}
+
+.nav-isp .item:nth-child(3n){
+	background: url(../images/agri.png) no-repeat center  / cover;
+}
+
+.nav-isp .item:nth-child(4n){
+	background: url(../images/allevamento.jpg) no-repeat center  / cover;
+}
+
+
+
+
+#ispezionia{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/YUN00086.jpg) no-repeat center  / cover;
+}
+
+#fotov{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/termografia.jpg) no-repeat center  / cover;
+}
+
+#agri{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/agri.png) no-repeat center  / cover;
+}
+
+
+
+#alle{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/allevamento.jpg) no-repeat center  / cover;
+}
+
+#main-isp .services-container{
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+/************ ALTRO **********/
+.cont2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+}
+
+.cont2 .item{
+	flex: 0 1 50%;
+}
+.cont2 .item .caption{
+	background: rgba(0, 0, 0, .8);
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .3);
+	color: white;
+	font-size: 3.2rem;
+}
+
+.nav-alt .item:nth-child(1n){
+	background: url(../images/12.jpg) no-repeat center  / cover;
+}
+
+.nav-alt .item:nth-child(2n){
+	background: url(../images/3dprint.png) no-repeat center  / cover;
+}
+
+
+
+
+
+
+#foto-vid{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/12.jpg) no-repeat center  / cover;
+}
+
+#stamp{
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .4)),
+							url(../images/3dprint.png) no-repeat center  / cover;
+}
+
+
+
+/************ GALLERY **********/
+
+#hero4 .container{
+	background: linear-gradient(0deg, black, transparent),
+							url(../images/back4.jpg);
+		background-position: center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	text-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
+}
+
+#main-gallery{
+	padding-bottom: 50px;
+}
+/****** SLIDESHOW ******/
+
+
+.slide{
+	padding-top: 50px;
+	background-color: black;
+
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.slide .container {
+  position: relative;
+  }
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50%;
+  display: none;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.s-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.slide .active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+/************ CONTACTS **********/
+
+#ma i{
+color: rgba(255, 0, 0, .8);
+}
+
+
+#ph i{
+color: rgba(0, 250, 100, .8);
+}
+
+#contacts h4{
+	margin-top: 0;
+	font-size: 2.8rem
+}
+
+#contacts h3{
+	margin-bottom:10px;
+}
+
+
+
+
+#contacts ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#contacts a{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#contacts .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 80%;
+	max-width: 500px;
+	margin: auto;
+	box-shadow: 5px 5px 2px rgba(255, 255, 255, .2), -5px -5px 2px rgba(255, 255, 255, .2);
+	border-radius: 10%;
+	margin-bottom: 150px;
+	background: #f4f7f8; 
+}
+
+#contacts .item{
+	padding: 25px 0; 
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+#main-contacts{
+	padding-bottom: 100px;
+}
+
+#contacts .item:last-child{
+	padding-bottom: 100px;
+}
+
+
+#hero5 h1, #hero5 h2{
+	text-shadow: 5px 5px 0.5px rgba(232, 232, 232, .2);
+}
+
+#form{
+	display: none;
+}
+
+/************ FOOTER **********/
+
+footer.main {
+	text-align: center;
+	padding: 15px;
+}
+
+footer.main img {
+	width: 24px;
+}
+
+footer.main a {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+footer.main p {
+	font-size: 1.5rem;
+}
+
+
+
+
+footer{
+	text-align: center;
+	padding-top: 15px;
+	background: white;
+	box-shadow:  0 -3px 2px rgba(0, 0, 0, .3);
+}
+
+footer .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+	}
+
+
+.data-container{
+	padding: 0 20px 0 20px;
+	display: flex;
+	justify-content: space-between;
+	min-width: 80%;
+}
+
+
+.social{
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	justify-content: space-around;
+}
+
+
+
+
+footer ul{
+	list-style-type: none;
+	}
+
+footer .item{
+	flex: 0 0 33.333%;
+	padding: 5px;
+	
+}
+
+footer .item a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+footer h5{
+margin: 0 auto;
+font-size: 2rem;
+
+}
+
+
+footer h6{
+margin: 0 auto;
+font-size: 1.5rem;
+}
+
+
+footer #mail i{
+color: rgba(255, 0, 0, .8);
+}
+
+
+footer #phone i{
+color: rgba(0, 250, 100, .8);
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.sflip-card {
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.sflip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.sflip-card:hover .sflip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.sflip-card-front, .sflip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.sflip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+/* Style the back side */
+.sflip-card-back {
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+/************ HEADER **********/
+	header .logo-container{
+		padding: 0 0 0 50px;
+		height: 100%;
+	}
+
+
+/************ HOME **********/
+.el-item .material-icons{
+	font-size: 10rem;
+}
+
+#el-logo img{
+	width: 70%;
+}
+
+/************ ABOUT **********/
+
+
+/************ SERVIZI **********/
+
+
+/************ GALLERY **********/
+
+
+/************ CONTACTS **********/	
+
+}
+
+@media only screen and (min-width: 992px) {
+
+	
+/*************HEADER*****************/
+
+
+	header .container {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+
+
+	header {
+		height: 90px;
+	}
+
+	nav ul{
+		padding-right: 50px;
+	}
+
+
+	nav li a {
+		transition: background .3s;
+	}
+
+	nav li a:hover, nav li a.active {
+		background: rgba(0, 0, 0,.9);
+		border-radius: 3px;
+		color: white;
+	}
+
+/**************NAVBAR***************/
+
+#mobile-nav{
+	display: none;
+}
+
+#pc-nav .dropdown-content h6{
+	color: gray;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 10px 0 5px 0;
+	margin: 0;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+#pc-nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#pc-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  margin-top: 5px;
+}
+
+
+/* Links inside the dropdown */
+#pc-nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+#pc-nav .dropdown-content a:hover {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+/* Show the dropdown menu on hover */
+#pc-nav .dropdown:hover .dropdown-content {
+	display: block;
+	transform: translateX(-25%);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#pc-nav .dropdown:hover .dropbtn {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255)
+	}
+
+
+
+/************ HOME **********/
+
+
+
+/************ ABOUT **********/
+.about-container .item{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	align-items: center;
+	width: 100%;
+	padding: 0 20px;
+	min-height: 500px;
+	}
+
+#fleet .item:nth-child(3n){
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	align-items: center;
+	width: 100%;
+	padding: 0 20px;
+	min-height: 500px;
+}
+/************ SERVIZI **********/
+
+
+/************ GALLERY **********/
+
+
+/************ CONTACTS **********/
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+header .logo-container{
+	padding: 0 0 0 20px;
+	height: 100%;
+}
+
+
+h1{
+	font-size: 4.2rem;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 5px 0.5px rgba(0, 0, 0, .3);
+}
+
+h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-shadow: 5px 5px 0.5px rgba(0, 0, 0, .3);
+}
+
+h3{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h5{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+p{
+	font-size: 1.5rem;
+}
+
+.hero{
+	height: 300px;
+}
+
+.btn{
+	max-width: 100px;
+}
+
+/************ HOME **********/
+
+.el-item .material-icons{
+	font-size: 4rem;
+}
+
+#el-logo img{
+	width: 100%;
+}
+
+/************ ABOUT **********/
+
+#hero2 {
+	background: linear-gradient(0deg, rgb(0, 0, 0), transparent),
+							url(../images/5-1.jpg);
+	background-position: 40% 0%; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	}
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 350px;
+  border-radius: 3%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: auto;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+  border-radius: 3%
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+ }	
+
+.flip-card-front img{
+	width:200px;
+	height:200px;
+	border-radius: 100%;
+	margin-top: 50px;	
+}
+
+/************ SERVIZI **********/
+.ser-cont .item{
+	flex: 0 1 100%;
+	height: 25%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cont4 .item{
+	flex: 0 1 auto;
+}
+
+/************ GALLERY **********/
+
+
+/************ CONTACTS **********/
+
+
+/************ FOOTER **********/
+
+footer .container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+.social{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+
+.data-container{
+		padding: 0 20px 0 20px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+
+
+header .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;	
+}
+
+header {
+	width: 100%;
+	height: 90px;
+}
+
+/************ NAVBAR **********/
+#pc-nav{
+	display: none;
+}
+
+.active {
+	background: rgba(0, 0, 0, .9);
+	border-radius: 3px;
+	color: rgb(255, 255, 255);
+}
+
+
+.bar{
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px;
+}
+
+
+/* Dropdown Button */
+#mobile-nav .dropbtn {
+  background-color: rgba(255, 255, 255,0);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+#mobile-nav .dropbtn:hover, #mobile-nav .dropbtn:focus, {
+  background-color: rgba(0, 0, 0, .9);
+  color: rgb(255, 255, 255);
+}
+
+/* The container <div> - needed to position the dropdown content */
+#mobile-nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#mobile-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  transform: translateX(-50%);
+}
+
+/* Links inside the dropdown */
+#mobile-nav .dropdown-content a {
+   padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+#mobile-nav .dropdown-content a:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+#mobile-nav .show {display:block;}
+
+#gallery{
+	flex-direction: column;
+}
+
+#slide .container{
+	width: 100%;
+}
+
+/************ HOME **********/
+
+
+/************ ABOUT **********/
+.about-container .item{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	align-items: center;
+	width: 100%;
+	padding: 0 20px;
+	min-height: 500px;
+	}
+
+.about-container .picture{
+	width: 60%;
+}
+
+#about-intro .logo-container{
+	width: 50%;
+	}
+
+
+#team .item{
+margin-top: 0;
+min-height: 350px;
+}
+
+/************ SERVIZI **********/
+
+
+/************ GALLERY **********/
+
+
+/************ CONTACTS **********/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/************ ANIMATIONS **********/
+
+
+@keyframes fade-in{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+
+
+@keyframes fade-left{
+	0%{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+
+@keyframes fade-right{
+	0%{
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
