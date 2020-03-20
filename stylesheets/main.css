@@ -312,7 +312,7 @@ nav li a {
 
 #hero2 {
 	background: linear-gradient(0deg, rgb(0, 0, 0), transparent),
-							url(../images/5.jpg);
+		url(../images/5.jpg);
 	background-position: top; 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -528,7 +528,10 @@ justify-content: space-between;
 
 
 #rilievo .item:nth-child(1n){
-	background: url(../images/fotogram.png) no-repeat center  / cover;
+	background: url(../images/fotogram.PNG);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #rilievo .item:nth-child(2n){
@@ -540,7 +543,10 @@ justify-content: space-between;
 }
 
 #rilievo .item:nth-child(4n){
-	background: url(../images/Cattura3.png) no-repeat center  / cover;
+	background: url(../images/Cattura3.png);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -1315,6 +1321,14 @@ p{
 
 .btn{
 	max-width: 100px;
+}
+
+.item25{
+	flex: 0 1 33.333333333%;
+	padding: 0 10px;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 /************ HOME **********/
