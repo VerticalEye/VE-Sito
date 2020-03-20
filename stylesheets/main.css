@@ -1346,7 +1346,7 @@ p{
 #hero2 {
 	background: linear-gradient(0deg, rgb(0, 0, 0), transparent),
 							url(../images/5-1.jpg);
-	background-position: top; 
+	background-position: 40% 20%; 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 150%;
