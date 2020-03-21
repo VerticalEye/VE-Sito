@@ -311,9 +311,9 @@ nav li a {
 /************ ABOUT **********/
 
 #hero2 {
-	background: linear-gradient(0deg, rgb(0, 0, 0), transparent),
-		url(../images/5.jpg);
-	background-position: top; 
+	background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+							url(../images/5.jpg);
+	background-position: center; 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -441,8 +441,11 @@ nav li a {
 #fleet{
 	
 	background:	linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
-							url(../images/IMG_2375.jpg) no-repeat top  / cover;
-							
+							url(../images/IMG_2375.jpg);
+							background-position: top; 
+							background-attachment: fixed;
+							background-repeat: no-repeat;
+							background-size: cover;
 	
 }
 
@@ -543,10 +546,8 @@ justify-content: space-between;
 }
 
 #rilievo .item:nth-child(4n){
-	background: url(../images/Cattura3.png);
-	background-position: center; 
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: url(../images/Cattura3.PNG) no-repeat center  / cover;
+
 }
 
 
