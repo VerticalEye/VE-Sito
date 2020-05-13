@@ -420,46 +420,11 @@
 			
 			<p>Vertical Eye - Drone Solutions ©2020</p>
 		</footer>
+
+
+		<script type="text/javascript" src="js/javascript.js"></script>
 	</body>
 </html>
-
-
-
-<script >
-	var prevScrollpos = window.pageYOffset;
-	window.onscroll = function() {
-	  var currentScrollPos = window.pageYOffset;
-	  if (prevScrollpos > currentScrollPos) {
-	    document.getElementById("header").style.top = "0";
-	  } else {
-	    document.getElementById("header").style.top = "-130px";
-	  }
-	  prevScrollpos = currentScrollPos;
-	}
-</script>
-
-
-<script type="text/javascript">
-	/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161450888-1"></script>
