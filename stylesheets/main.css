@@ -196,7 +196,6 @@ header {
 	position: fixed;
 	box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
 	
-
 }
 
 
@@ -854,6 +853,16 @@ color: rgba(0, 250, 100, .8);
 	display: none;
 }
 
+/**************PRIVACY***********/
+.policy p{
+	font-size: 3rem;
+}
+
+.policy .container{
+	width: 90%;
+	margin: auto;
+}
+
 /************ FOOTER **********/
 
 footer.main {
@@ -955,6 +964,9 @@ footer #phone i{
 color: rgba(0, 250, 100, .8);
 }
 
+#lower a, p{
+	font-size: 1.2rem;
+}
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .sflip-card {
@@ -1003,6 +1015,55 @@ color: rgba(0, 250, 100, .8);
 }
 
 
+#cookie-banner {
+  position: fixed;
+  height: 50px;
+  z-index: 50;
+  bottom: 0px;
+  background-color: #000000;
+  color: white;
+  width: 100%;
+}
+
+#cookie-banner .row{
+  margin-top: 5px;
+}
+
+
+
+#cookie-banner item{
+	flex: 1 0 50%;
+}
+
+#cookie-banner p{
+	font-size: 1.5rem;
+}
+
+.cookie-btn{
+  display: inline-block;
+  background: #fff;
+  padding: 10px 20px;
+  color: black;
+  text-transform: uppercase;
+  border: 0;
+  transition: background .3s;
+  border-radius: 50px;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
+  max-width: 300px;
+  margin-top: 50px;
+  text-align: center;
+  margin: 5px auto;
+  cursor: pointer;
+  font-size: 1.5rem;
+  max-width: 100px;
+}
+
+.banner-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -1503,6 +1564,21 @@ min-height: 350px;
 
 
 
+
+
+@media only screen and (max-width: 576px){
+		
+		.banner-row{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		}
+
+		#cookie-banner{
+		height: 100px;
+	}
+}
 
 
 

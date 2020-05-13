@@ -21,3 +21,6 @@ window.onclick = function(event) {
 };
 
 
+function closeCookies() {
+	document.getElementById("cookie-banner").style.display = "none";
+}
