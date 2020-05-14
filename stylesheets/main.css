@@ -33,13 +33,13 @@ h1{
 }
 
 h2{
-	font-size: 5.5rem;
+	font-size: 6.5rem;
 	font-weight: bold;
 	text-shadow: 5px 5px 0.5px rgba(0, 0, 0, .3);
 }
 
 h3{
-	font-size: 4.5rem;
+	font-size: 5rem;
 	font-weight: bold;
 }
 
@@ -271,7 +271,6 @@ nav li a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: center;
 	justify-content: space-around;
 	color: #fff;
 }
@@ -285,14 +284,19 @@ nav li a {
 	font-weight: bold;
 	flex: 0 1 33.33333333333333333333333333%;
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 }
 
 .el-item .material-icons{
 	font-size: 10rem;
 }
 
-
+.upper{
+	transform: translateY(-25px);
+}
+ .lower{
+ 	transform: translateY(25px);
+ }
 
 .video-background{
 	width: 100%;
@@ -324,7 +328,7 @@ nav li a {
 #hero2 {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
 							url(../images/5-2.png);
-	background-position: center; 
+	background-position: top; 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1126,7 +1130,7 @@ form .container{
 }
 
 #el-logo img{
-	width: 70%;
+	width: 80%;
 }
 
 /************ ABOUT **********/
@@ -1326,6 +1330,10 @@ p{
 	font-size: 1.5rem;
 }
 
+a{
+	font-size: 1.5rem;
+}
+
 .hero{
 	height: 300px;
 }
@@ -1349,7 +1357,7 @@ p{
 }
 
 #el-logo img{
-	width: 100%;
+	width: 80%;
 }
 
 /************ ABOUT **********/
