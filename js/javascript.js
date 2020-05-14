@@ -1,5 +1,4 @@
 
-
 		/* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -23,4 +22,15 @@ window.onclick = function(event) {
 
 function closeCookies() {
 	document.getElementById("cookie-banner").style.display = "none";
-}
+};
+
+
+
+function openPopup(){
+    document.getElementsByClassName("pop-up")[0].style.display = "block";
+  };
+  
+function closePopup(){
+    document.getElementsByClassName("pop-up")[0].style.display = "none";
+  };
+
