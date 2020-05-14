@@ -254,7 +254,9 @@ nav li a {
 	background-image: url(../images/logo per video bianco.PNG);
 }
 
-
+.cit p{
+	font-size: 3.5rem;
+}
 
 #elements .container{
 	display: flex;
@@ -321,7 +323,7 @@ nav li a {
 }
 
 .partner{
-	width: 15%;
+	width: 200px;
 }
 /************ ABOUT **********/
 
@@ -1353,7 +1355,7 @@ a{
 /************ HOME **********/
 
 .el-item .material-icons{
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 #el-logo img{
