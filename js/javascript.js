@@ -33,4 +33,3 @@ function openPopup(){
 function closePopup(){
     document.getElementsByClassName("pop-up")[0].style.display = "none";
   };
-

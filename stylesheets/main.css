@@ -126,7 +126,7 @@ main {
 
 .hero .hero-caption {
 	text-align: center;
-	padding: 140px 20px;
+	padding: 50px 20px;
 }
 
 
@@ -254,7 +254,7 @@ nav li a {
 	background-image: url(../images/logo per video bianco.PNG);
 }
 
-.cit p{
+.cit {
 	font-size: 3.5rem;
 }
 
@@ -1082,7 +1082,7 @@ color: rgba(0, 250, 100, .8);
 }
 
 form{
-	width: 50%;
+	width: 40%;
 	position: relative;
 	height: 100vh;
 	margin: auto;
@@ -1634,9 +1634,27 @@ min-height: 350px;
 		#cookie-banner{
 		height: 100px;
 	}
+
+	form{
+		width: 90%;
+		
+	}
+
+	form .container{
+		top: 5px;
+		max-height: calc(100vh - 10px);
+		overflow: scroll;
+	}
+
+	form .material-icons{
+		top: 5px;
+	}
+
+	form .container::-webkit-scrollbar{
+		display: none;
+	}
+
 }
-
-
 
 
 
