@@ -1086,7 +1086,7 @@ form{
 	position: relative;
 	height: 100vh;
 	margin: auto;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 }
 
 form .material-icons{
@@ -1103,7 +1103,7 @@ form .material-icons{
 form .container{
 	width: 100%;
 	position: absolute;
-	top: 10px;
+	top: 20px;
 	background-color: #ffffff;
 	border-radius: 3px;
 	display: flex;
@@ -1111,6 +1111,7 @@ form .container{
 	justify-content: space-between;
 	align-items: center;
 	overflow: scroll;
+	max-height: calc(100vh - 30px);
 }
 
 form .container::-webkit-scrollbar{
