@@ -33,3 +33,8 @@ function openPopup(){
 function closePopup(){
     document.getElementsByClassName("pop-up")[0].style.display = "none";
   };
+
+function GDPR(){
+  instilla.privacy.ui.showBanner();
+  instilla.privacy.ui.showAdvancedPrivacySettings()
+};
