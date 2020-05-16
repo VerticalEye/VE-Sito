@@ -412,7 +412,7 @@ nav li a {
 .flip-card-front {
   background-color: transparent;
   color: black;
-  border-radius: 3%
+  border-radius: 3%;
 }
 
 /* Style the back side */
@@ -426,13 +426,18 @@ nav li a {
  }	
 
 .flip-card-front img{
+	height: 350px;
+	width: auto;
+	transform: translateX(-75px);
+}
+
+.flip-card-front div{
 	width:350px;
 	height:350px;
 	border-radius: 100%;
-	margin-top: 50px;	
+	margin: 10px auto;
+	overflow: hidden;
 }
-
-
 
 .about-container .picture{
 	width: 25%;
