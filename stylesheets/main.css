@@ -410,7 +410,7 @@ nav li a {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, .9);
   color: black;
   border-radius: 3%;
   display: flex;
